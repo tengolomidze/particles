@@ -72,7 +72,7 @@ mediaRecorder.onstop = function(e) {
  };
 
  mediaRecorder.start();
- setTimeout(function (){ mediaRecorder.stop(); }, 50000);
+ setTimeout(function (){ mediaRecorder.stop(); }, 500000);
 
  let image = "";
  setTimeout(function (){
